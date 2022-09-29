@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="favicon_io/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="favicon_io/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="favicon_io/favicon-16x16.png"
+    />
+    <link rel="manifest" href="favicon_io/site.webmanifest" />
+    <title>Basic | JS</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body id="body">
+    <div class="container">
+      <h1 id="heading"></h1>
+      <div class="music-container" id="music-container">
+        <img
+          src="./Lofi_girl_logo.jpeg"
+          alt=""
+          title="Click me"
+          width="50"
+          id="music-btn"
+        />
+        <audio src="./lofimusinc_lofiGirl.mp3" id="music"></audio>
+        <p id="music_info">Click image to play music!</p>
+      </div>
+      <div class="Animation">
+        <div class="square_field">
+          <img
+            src="./beach-ball.png"
+            alt="ball"
+            class="ball"
+            id="ball"
+            onclick="Animate()"
+          />
+        </div>
+      </div>
+    </div>
+    <div class="attribution">
+      <div class="link">
+        <a href="https://iconscout.com/3ds/beach-ball" target="_blank"
+          >Beach Ball 3D Icon</a
+        >
+        by
+        <a href="https://iconscout.com/contributors/walmaker" target="_blank"
+          >Walmaker</a
+        >
+      </div>
+      <div class="link">
+        <a href="https://www.youtube.com/watch?v=n_2B0-DtrR0">New Day </a> by
+        <a href="https://www.youtube.com/c/LofiRecords">Lofi girl</a>
+      </div>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
